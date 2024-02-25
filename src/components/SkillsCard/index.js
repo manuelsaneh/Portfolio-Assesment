@@ -1,0 +1,35 @@
+export const skills = [
+  {
+    title: "Skills:",
+    iconBg: "#191717",
+    points: [
+      "HTML",
+      "CSS / SASS",
+      "JavaScript / TypeScript",
+      "React JS",
+      "React Native",
+      "Node JS / Express JS / MoongoDB",
+      "Responsive Design",
+      "API Handling",
+      "Unit Testing",
+      "Git / GitHub",
+      "Debugging and Troubleshooting",
+    ],
+  },
+  {
+    title: "Familiarity with libraries such as:",
+    iconBg: "#191717",
+    points: [
+      "Redux / Redux-Toolkit",
+      "React Routing / Hooks / Context",
+      "Axios",
+      "Formik",
+      "Tailwind CSS",
+      "React Splides",
+      "Framer Motion",
+      "React Three Fiber",
+      "React Tilt",
+      "Email JS",
+    ],
+  },
+];

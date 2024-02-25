@@ -1,0 +1,80 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem;
+}
+
+.contact__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact__heading {
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+.contact__text p {
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.contact__card {
+  width: 40%;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .contact {
+    margin: 2rem;
+  }
+
+  .contact__heading {
+    font-size: 3rem;
+  }
+
+  .contact__text p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .contact__heading {
+    font-size: 2.7rem;
+  }
+
+  .contact__text p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem;
+  }
+
+  .contact {
+    margin: 1.8rem;
+  }
+
+  .contact__heading {
+    font-size: 2.5rem;
+  }
+
+  .contact__text p {
+    font-size: 1.4rem;
+  }
+
+  .contact__card {
+    width: 100%;
+    margin-top: 4rem;
+  }
+}

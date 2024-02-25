@@ -1,0 +1,152 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 60vh;
+  margin: 4rem;
+}
+
+.projects__heading {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.projects__text {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.projects__paragraph {
+  max-width: 75%;
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.projects__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 4rem;
+  gap: 3rem;
+}
+
+.line {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #ccc8aa;
+  margin: 4rem;
+  padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .projects {
+    margin: 2rem;
+  }
+
+  .projects__heading {
+    font-size: 1.7rem;
+  }
+
+  .projects__text {
+    font-size: 0.9rem;
+  }
+
+  .projects__paragraph {
+    max-width: 75%;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .projects__card {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .projects__heading {
+    font-size: 1.5rem;
+  }
+
+  .projects__text {
+    font-size: 0.8rem;
+  }
+
+  .projects__paragraph {
+    max-width: 80%;
+    margin-top: 1.8rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .projects {
+    margin: 1.8rem;
+  }
+
+  .projects__heading {
+    font-size: 1.3rem;
+  }
+
+  .projects__text {
+    font-size: 0.8rem;
+  }
+
+  .projects__paragraph {
+    margin-top: 1.8rem;
+    font-size: 1.1rem;
+  }
+
+  .projects__card {
+    margin: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .projects {
+    margin: 1.5rem;
+  }
+
+  .projects__heading {
+    font-size: 1.3rem;
+  }
+
+  .projects__text {
+    font-size: 0.8rem;
+  }
+
+  .projects__paragraph {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .projects__card {
+    margin: 1.8rem;
+  }
+
+  .line {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .projects__heading {
+    font-size: 1.2rem;
+  }
+
+  .projects__text {
+    font-size: 0.7rem;
+  }
+
+  .projects__paragraph {
+    margin-top: 1.3rem;
+    font-size: 0.9rem;
+  }
+
+  .line {
+    margin: 1.5rem;
+  }
+}

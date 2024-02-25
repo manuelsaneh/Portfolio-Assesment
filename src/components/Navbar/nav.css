@@ -1,0 +1,152 @@
+/* --primary: "#F1EFEF";
+  --secondary: "#CCC8AA";
+  --tertiary: "#191717"; */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ccc8aa;
+  padding: 1rem 2rem;
+}
+
+.navbar_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar_link-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar_link-name p {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #191717;
+  cursor: pointer;
+}
+
+.navbar_link-name p:hover {
+  color: #f1efef;
+}
+
+.navbar_list {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navbar_list-links {
+  margin: 0 1rem;
+  cursor: pointer;
+  color: #191717;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.navbar_list-links:hover {
+  color: #f1efef;
+  border-bottom: 2px solid #f1efef;
+}
+
+.navbar_smallscreen {
+  display: none;
+}
+
+.navbar_smallscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc8aa;
+  transition: 0.5s ease;
+  flex-direction: column;
+  z-index: 5;
+}
+
+.navbar_smallscreen-overlay .close {
+  font-size: 27px;
+  color: #f1efef;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.navbar_smallscreen-list {
+  list-style: none;
+}
+
+.navbar_smallscreen-links {
+  margin: 4rem 2rem;
+  cursor: pointer;
+  color: #191717;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.navbar_smallscreen-links:hover {
+  color: #f1efef;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide_bottom {
+  -webkit-animation: slide_bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide_bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar_list {
+    display: none;
+  }
+
+  .navbar_smallscreen {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .navbar {
+    padding: 1rem;
+  }
+}
+
+@-webkit-keyframes slide_bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide_bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

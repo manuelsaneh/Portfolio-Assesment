@@ -1,0 +1,151 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 60vh;
+  margin: 4rem;
+}
+
+.about__heading {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.about__text {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.about__paragraph {
+  max-width: 75%;
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.about__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 4rem;
+}
+
+.line {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #ccc8aa;
+  margin: 4rem;
+  padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .about {
+    margin: 2rem;
+  }
+
+  .about__heading {
+    font-size: 1.7rem;
+  }
+
+  .about__text {
+    font-size: 0.9rem;
+  }
+
+  .about__paragraph {
+    max-width: 75%;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .about__skills {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .about__heading {
+    font-size: 1.5rem;
+  }
+
+  .about__text {
+    font-size: 0.8rem;
+  }
+
+  .about__paragraph {
+    max-width: 80%;
+    margin-top: 1.8rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about {
+    margin: 1.8rem;
+  }
+
+  .about__heading {
+    font-size: 1.3rem;
+  }
+
+  .about__text {
+    font-size: 0.8rem;
+  }
+
+  .about__paragraph {
+    margin-top: 1.8rem;
+    font-size: 1.1rem;
+  }
+
+  .about__skills {
+    margin: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about {
+    margin: 1.5rem;
+  }
+
+  .about__heading {
+    font-size: 1.3rem;
+  }
+
+  .about__text {
+    font-size: 0.8rem;
+  }
+
+  .about__paragraph {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .about__skills {
+    margin: 1.8rem;
+  }
+
+  .line {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__heading {
+    font-size: 1.2rem;
+  }
+
+  .about__text {
+    font-size: 0.7rem;
+  }
+
+  .about__paragraph {
+    margin-top: 1.3rem;
+    font-size: 0.9rem;
+  }
+
+  .line {
+    margin: 1.5rem;
+  }
+}
